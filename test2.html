@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css"/>
+</head>
+<body>
+    <form>
+        <label for="userid_input">이메일:</label>
+        <input 
+            id="userid_input"
+            name="userid" 
+            placeholder="아이디를 입력하세요" 
+            type="text"
+        />
+        <br />
+        <label for="userpw_input">비밀번호:</label>
+        <input
+            id="userpw_input"
+            name="userpw"
+            placeholder="비밀번호를 입력하세요"
+            type="password"
+        />
+        <br />
+        <label for="pw_question_input">질문:</label>
+        <select name="비밀번호 질문">
+            <option value="선택">나의 꿈</option>
+            <option value="장래희망">장래 희망</option>
+            <option value="태어난 곳">태어난 곳</option>
+            <option value="좋아하는 음식">좋아하는 음식</option>
+        </select>
+        <input
+            id="pw_question_input"
+            name="pw_question"
+            placeholder="답변을 입력하세요"
+            type="text""
+        />
+        <br />
+        <label for="intro">자기소개:</label>
+        <br />
+        <textarea id ="intro" name="content" cols="50" rows="50">
+
+        </textarea>
+
+
+        <button name="전송" type="submit">
+            전송하기
+        </button>
+    </form>
+
+    
+</body>
+</html>
